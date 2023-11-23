@@ -1,0 +1,42 @@
+// ONE
+$ curl https://icanhazdadjoke.com/search?term=pirate
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   295  100   295    0     0    803      0 --:--:-- --:--:-- --:--:--   806What did the pirate say on his 80th birthday? Aye Matey!
+What does a pirate pay for his corn? A buccaneer!
+Why couldn't the kid see the pirate movie? Because it was rated arrr!
+Why are pirates called pirates? Because they arrr!
+Why do pirates not know the alphabet? They always get stuck at "C".
+
+
+// TWO
+
+$ dig icanhazdadjoke.com
+
+; <<>> DiG 9.11.28 <<>> icanhazdadjoke.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45777
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1220
+; COOKIE: c7843cb92f77f3e6647dcce3655fbfda8d953ea39952373d (good)
+;; QUESTION SECTION:
+;icanhazdadjoke.com.            IN      A
+
+;; ANSWER SECTION:
+icanhazdadjoke.com.     125     IN      A       172.67.198.173
+icanhazdadjoke.com.     125     IN      A       104.21.66.15
+
+;; Query time: 61 msec
+;; WHEN: Thu Nov 23 16:10:52 Eastern Standard Time 2023
+;; MSG SIZE  rcvd: 107
+
+
+---------------> IP ADDRESSES: <---------------
+icanhazdadjoke.com.     125     IN      A       172.67.198.173
+icanhazdadjoke.com.     125     IN      A       104.21.66.15
+------------------------------------------------
+
+// THREE
